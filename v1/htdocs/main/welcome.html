@@ -1,0 +1,574 @@
+<!--Author_zoneX43-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      /* Style the body */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      /* Header/logo Title */
+      .header {
+        padding: 18px;
+        text-align: center;
+        background: #3302a5;
+        color: white;
+      }
+      /* Increase the font size of the heading */
+      .header h1 {
+        font-size: 40px;
+      }
+      /* Style the top navigation bar */
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      /* Style the navigation bar links */
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      /* Right-aligned link */
+      .navbar a.right {
+        float: right;
+      }
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: rgba(68, 211, 255, 0.74);
+        color: black;
+      }
+      /* Column container */
+      .row {  
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+      }
+      /* Create two unequal columns that sits next to each other */
+      /* Sidebar/left column */
+      .side {
+        -ms-flex: 30%; /* IE10 */
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      /* Main column */
+      .main {   
+        -ms-flex: 70%; /* IE10 */
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+      /* Fake image, just for this example */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+      }
+      /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 700px) {
+        .row {   
+          flex-direction: column;
+        }
+      }
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .navbar a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+
+    <!--HEADER-->
+    <div class="header">
+      <h1>welcome</h1>
+      <h3> <a style="color:rgb(14, 241, 166);" href="/main/home">scanline.com</a> created by zoneX43</h3>
+    </div>
+
+    <!--NAVBAR-->
+    <div class="navbar">
+      <!--LINKS-->
+      <a href="/644t2fw">404?</a>
+      <a href="/main/test/source/">test</a>
+      <a href="#">Link</a>
+      <a href="/main/home" class="right">Home</a>
+      <!--SIDEBAR-->
+      <div>
+        
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 9, 92);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(139, 255, 103);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #3d006b;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: rgb(139, 255, 103);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(14, 241, 166);
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="side">
+        <h2></h2>
+        <h5>Photo of me:</h5>
+
+        <!--Login-->
+        <div>
+          
+         
+          <style>
+          
+         
+          button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 10px 26px;
+            cursor: pointer;
+
+          }
+          
+          </style>
+        
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+
+
+
+
+        </div>
+
+        <form action="/action_page.php">
+          <h4>Daily News Letter</h4>
+          <label for="email">Enter your email:</label>
+          <input type="email" id="email" name="email">
+          <input type="submit">
+        </form>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3>More Text</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <div class="fakeimg" style="height:60px;">Image</div>
+      </div>
+        <div class="main">
+          <!--HEADLINE 1-->
+          <h2>CIOs spell out top tech priorities for 2022</h2>
+          <h5><a href="/main/news/CIOs spell out top tech priorities for 2022">vist-news</a>, Dec 7, 2017</h5>
+          <img src="/resources/image/CIOs spell out top tech priorities for 2022.image.png" alt="Girl in a jacket" width="300" height="200">            
+          <p>Some text..</p>
+          <p>CIOs seeking to impact their organizations in 2022 will double down on automation and actionable intelligence. They will also continue to lean heavily on the cloud and collaboration tools, two IT priorities that rose to prominence in navigating the pandemic for the past 21 months.</p>
+          <br>
+          <!--HEADLINE 2-->
+          <h2>CIOs spell out top tech priorities for 2022</h2>
+          <h5><a href="/main/news/CIOs spell out top tech priorities for 2022">vist-news</a>, Dec 7, 2017</h5>
+          <img src="/resources/image/CIOs spell out top tech priorities for 2022.image.png" alt="Girl in a jacket" width="300" height="200">            
+          <p>Some text..</p>
+          <p>CIOs seeking to impact their organizations in 2022 will double down on automation and actionable intelligence. They will also continue to lean heavily on the cloud and collaboration tools, two IT priorities that rose to prominence in navigating the pandemic for the past 21 months.</p>
+          <br>
+          <!--HEADLINE 3-->
+          <h2>CIOs spell out top tech priorities for 2022</h2>
+          <h5><a href="/main/news/CIOs spell out top tech priorities for 2022">vist-news</a>, Dec 7, 2017</h5>
+          <img src="/resources/image/CIOs spell out top tech priorities for 2022.image.png" alt="Girl in a jacket" width="300" height="200">            
+          <p>Some text..</p>
+          <p>CIOs seeking to impact their organizations in 2022 will double down on automation and actionable intelligence. They will also continue to lean heavily on the cloud and collaboration tools, two IT priorities that rose to prominence in navigating the pandemic for the past 21 months.</p>
+          <br>
+          <!--HEADLINE 4-->
+          <h2>CIOs spell out top tech priorities for 2022</h2>
+          <h5><a href="/main/news/CIOs spell out top tech priorities for 2022">vist-news</a>, Dec 7, 2017</h5>
+          <img src="/resources/image/CIOs spell out top tech priorities for 2022.image.png" alt="Girl in a jacket" width="300" height="200">            
+          <p>Some text..</p>
+          <p>CIOs seeking to impact their organizations in 2022 will double down on automation and actionable intelligence. They will also continue to lean heavily on the cloud and collaboration tools, two IT priorities that rose to prominence in navigating the pandemic for the past 21 months.</p>
+          <br>
+          <!--HEADLINE 5-->
+          <h2>CIOs spell out top tech priorities for 2022</h2>
+          <h5><a href="/main/news/CIOs spell out top tech priorities for 2022">vist-news</a>, Dec 7, 2017</h5>
+          <img src="/resources/image/CIOs spell out top tech priorities for 2022.image.png" alt="Girl in a jacket" width="300" height="200">            
+          <p>Some text..</p>
+          <p>CIOs seeking to impact their organizations in 2022 will double down on automation and actionable intelligence. They will also continue to lean heavily on the cloud and collaboration tools, two IT priorities that rose to prominence in navigating the pandemic for the past 21 months.</p>
+          <br>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+      </div>
+      <div class="footer">
+          <h2></h2>
+    </div>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!DOCTYPE html>
+  <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Untitled</title>
+        <center>
+        <style>
+           .footer-dark {
+       padding:50px 0;
+       color:#f0f9ff;
+       background-color:#282d32;
+     }
+
+     .footer-dark h3 {
+       margin-top:0;
+       margin-bottom:12px;
+       font-weight:bold;
+       font-size:16px;
+     }
+
+     .footer-dark ul {
+       padding:0;
+       list-style:none;
+       line-height:1.6;
+       font-size:14px;
+       margin-bottom:0;
+     }
+
+     .footer-dark ul a {
+       color:inherit;
+       text-decoration:none;
+       opacity:0.6;
+     }
+
+     .footer-dark ul a:hover {
+       opacity:0.8;
+     }
+
+     @media (max-width:767px) {
+       .footer-dark .item:not(.social) {
+         text-align:center;
+         padding-bottom:20px;
+       }
+     }
+
+     .footer-dark .item.text {
+       margin-bottom:36px;
+     }
+
+     @media (max-width:767px) {
+       .footer-dark .item.text {
+         margin-bottom:0;
+       }
+     }
+
+     .footer-dark .item.text p {
+       opacity:0.6;
+       margin-bottom:0;
+     }
+
+     .footer-dark .item.social {
+       text-align:center;
+     }
+
+     @media (max-width:991px) {
+       .footer-dark .item.social {
+         text-align:center;
+         margin-top:20px;
+       }
+     }
+
+     .footer-dark .item.social > a {
+       font-size:20px;
+       width:36px;
+       height:36px;
+       line-height:36px;
+       display:inline-block;
+       text-align:center;
+       border-radius:50%;
+       box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+       margin:0 8px;
+       color:#fff;
+       opacity:0.75;
+     }
+
+     .footer-dark .item.social > a:hover {
+       opacity:0.9;
+     }
+
+     .footer-dark .copyright {
+       text-align:center;
+       padding-top:24px;
+       opacity:0.3;
+       font-size:13px;
+       margin-bottom:0;
+     }
+    </style>
+      
+    <body>
+      <div class="footer-dark">
+        <footer>
+          <div class="container">
+            <div class="col-md-6 item text">
+              <h3>Scanline.inc™</h3>
+              <p style="font-size: 15px;">
+                Created by zoneX43 along with our technology and communication team from Scanline.inc & Google LLC.
+                Scanline.inc is a registered trademark of the Nexus Foundation, Inc. which is a non-profit organization.
+                postage is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. 
+                By using this site, you agree to the Terms of Use and Privacy Policy.
+              </p>
+              <p style="font-size: 16px;">
+                <a href="#Twitter" style="color: aqua;">Twitter</a>&nbsp;&nbsp;&nbsp;     
+                <a href="#Instagram" style="color: aqua;">Instagram</a>&nbsp;&nbsp;&nbsp; 
+                <a href="#Github"style="color: aqua;">Github</a>&nbsp;&nbsp;&nbsp;   
+              </p>
+              <p style="font-size: 14px;">
+                <a href="#Privacy Policy" style="color: aqua;">Privacy Policy</a>&nbsp;&nbsp;&nbsp;     
+                <a href="#Terms & Conditions" style="color: aqua;">Terms & Conditions</a>&nbsp;&nbsp;&nbsp;  
+              </p>
+            </p>
+            <p style="font-size: 13px;">
+              <a href="#Cookie Statement" style="color: aqua;">Cookie Statement</a>&nbsp;&nbsp;&nbsp;     
+              <a href="#Disclaimers" style="color: aqua;">Disclaimers</a>&nbsp;&nbsp;&nbsp; 
+              <a href="#Developers" style="color: aqua;">Developers</a>&nbsp;&nbsp;&nbsp;     
+              <a href="#Disclaimers" style="color: aqua;">Disclaimers</a>&nbsp;&nbsp;&nbsp;  
+              <a href="#About Scanline" style="color: aqua;">About Scanline</a>&nbsp;&nbsp;&nbsp;     
+              
+            </p>
+            <p style="font-size: 13px;">
+
+              <a href="#Contact Us" style="color: aqua;">Contact Us</a>&nbsp;&nbsp;&nbsp;   
+              <a href="#Dark" style="color: aqua;">Dark</a>&nbsp;&nbsp;&nbsp;     
+              <a href="#Advertising" style="color: aqua;">Advertising</a>&nbsp;&nbsp;&nbsp;  
+              <a href="#Business" style="color: aqua;">Business</a>&nbsp;&nbsp;&nbsp;
+              <a href="#Settings" style="color: aqua;">Settings</a>&nbsp;&nbsp;&nbsp;
+              <a href="#Language" style="color: aqua;">Language</a>&nbsp;&nbsp;&nbsp;
+            </p>
+
+
+
+
+
+
+
+
+            </div>
+            <p class="copyright">Scanline.inc © 2021</p>
+          </div>
+        </footer>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script> 
+    </body>
+  </html>
+
+
+
+
+
+
+
+    </footer>
+</html><!--END-->
+
+
+
